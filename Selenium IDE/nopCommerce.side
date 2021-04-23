@@ -496,65 +496,7 @@
       ],
       "value": ""
     }, {
-      "id": "6d55c6eb-8c67-4e1e-9440-fde1358fc655",
-      "comment": "",
-      "command": "click",
-      "target": "css=.item-box:nth-child(1) .title > a",
-      "targets": [
-        ["css=.item-box:nth-child(1) .title > a", "css:finder"],
-        ["xpath=(//a[contains(text(),'Electronics')])[3]", "xpath:link"],
-        ["xpath=(//a[contains(@href, '/electronics')])[3]", "xpath:href"],
-        ["xpath=//h2/a", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "6f20f77b-6744-4378-bed9-06213ad6a8f0",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Cell phones",
-      "targets": [
-        ["linkText=Cell phones", "linkText"],
-        ["css=.sublist > .inactive:nth-child(2) > a", "css:finder"],
-        ["xpath=(//a[contains(text(),'Cell phones')])[3]", "xpath:link"],
-        ["xpath=(//a[contains(@href, '/cell-phones')])[3]", "xpath:href"],
-        ["xpath=//div[2]/ul/li[2]/ul/li[2]/a", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "c4806ccf-bee1-453b-a409-9d4591931b0c",
-      "comment": "",
-      "command": "click",
-      "target": "css=.item-box:nth-child(3) .product-box-add-to-cart-button",
-      "targets": [
-        ["css=.item-box:nth-child(3) .product-box-add-to-cart-button", "css:finder"],
-        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
-        ["xpath=//div[3]/div/div[2]/div[3]/div[2]/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "c73b5d1f-247d-4614-8309-6debe3f01b38",
-      "comment": "",
-      "command": "click",
-      "target": "css=.cart-label",
-      "targets": [
-        ["css=.cart-label", "css:finder"],
-        ["xpath=//li[@id='topcartlink']/a/span", "xpath:idRelative"],
-        ["xpath=//li[4]/a/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Shopping cart')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "0a114e3e-3ec4-404a-a895-0d043761a412",
-      "comment": "",
-      "command": "click",
-      "target": "css=.master-wrapper-page",
-      "targets": [
-        ["css=.master-wrapper-page", "css:finder"],
-        ["xpath=//div[6]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "c740d5bd-fe6a-46d7-bdc9-24a3a67d6bd3",
+      "id": "4b9e3b0f-3565-44ae-a626-d405199e5d3f",
       "comment": "",
       "command": "click",
       "target": "linkText=Electronics",
@@ -568,7 +510,7 @@
       ],
       "value": ""
     }, {
-      "id": "71dd8b97-3b03-4478-a325-6e07c266f432",
+      "id": "a7a73bf9-304b-4f1f-8bfa-67643637b319",
       "comment": "",
       "command": "click",
       "target": "linkText=Cell phones",
@@ -581,47 +523,18 @@
       ],
       "value": ""
     }, {
-      "id": "c6bb7e16-c410-49a5-a111-f2404b35e32c",
+      "id": "c78c53f3-9330-4d41-abea-109d26a81aae",
       "comment": "",
       "command": "click",
-      "target": "css=.item-box:nth-child(3) .details a",
+      "target": "css=.item-box:nth-child(3) img",
       "targets": [
-        ["css=.item-box:nth-child(3) .details a", "css:finder"],
-        ["xpath=(//a[contains(text(),'Nokia Lumia 1020')])[3]", "xpath:link"],
-        ["xpath=(//a[contains(@href, '/nokia-lumia-1020')])[6]", "xpath:href"],
-        ["xpath=//div[3]/div/div[2]/h2/a", "xpath:position"]
+        ["css=.item-box:nth-child(3) img", "css:finder"],
+        ["xpath=(//img[@alt='Picture of Nokia Lumia 1020'])[2]", "xpath:img"],
+        ["xpath=//div[3]/div/div/a/img", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "e80ff859-7c51-4234-b99e-4e6c4de295bd",
-      "comment": "",
-      "command": "click",
-      "target": "id=product_enteredQuantity_20",
-      "targets": [
-        ["id=product_enteredQuantity_20", "id"],
-        ["name=addtocart_20.EnteredQuantity", "name"],
-        ["css=#product_enteredQuantity_20", "css:finder"],
-        ["xpath=//input[@id='product_enteredQuantity_20']", "xpath:attributes"],
-        ["xpath=//form[@id='product-details-form']/div[2]/div/div[2]/div[7]/div/input", "xpath:idRelative"],
-        ["xpath=//div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "460397ad-585a-4bea-9fbc-32ad41eae910",
-      "comment": "",
-      "command": "type",
-      "target": "id=product_enteredQuantity_20",
-      "targets": [
-        ["id=product_enteredQuantity_20", "id"],
-        ["name=addtocart_20.EnteredQuantity", "name"],
-        ["css=#product_enteredQuantity_20", "css:finder"],
-        ["xpath=//input[@id='product_enteredQuantity_20']", "xpath:attributes"],
-        ["xpath=//form[@id='product-details-form']/div[2]/div/div[2]/div[7]/div/input", "xpath:idRelative"],
-        ["xpath=//div/input", "xpath:position"]
-      ],
-      "value": "4"
-    }, {
-      "id": "4318c255-2d1d-4c89-99da-d3562990ae0c",
+      "id": "dd442be1-970c-420a-8bdf-dadd70334eca",
       "comment": "",
       "command": "click",
       "target": "id=add-to-cart-button-20",
@@ -630,11 +543,11 @@
         ["css=#add-to-cart-button-20", "css:finder"],
         ["xpath=//button[@id='add-to-cart-button-20']", "xpath:attributes"],
         ["xpath=//form[@id='product-details-form']/div[2]/div/div[2]/div[7]/div/button", "xpath:idRelative"],
-        ["xpath=//div[7]/div/button", "xpath:position"]
+        ["xpath=//div/button", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "62a55ec6-0dcd-4d77-a438-096eb88a8b62",
+      "id": "a7c8648c-2942-42e7-b7c9-f25044034c38",
       "comment": "",
       "command": "click",
       "target": "css=.cart-label",
@@ -646,7 +559,68 @@
       ],
       "value": ""
     }, {
-      "id": "3bfc7b86-e302-492f-b2cc-011e206ace4c",
+      "id": "7a623494-299d-4cdd-9aa2-61b27954b7c9",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.table-wrapper",
+      "targets": [
+        ["css=.table-wrapper", "css:finder"],
+        ["xpath=//form[@id='shopping-cart-form']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": "1164.5,1062.86669921875"
+    }, {
+      "id": "c64aba0e-c717-4057-afe6-0bac7d12b21b",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.table-wrapper",
+      "targets": [
+        ["css=.table-wrapper", "css:finder"],
+        ["xpath=//form[@id='shopping-cart-form']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": "1164.5,1062.86669921875"
+    }, {
+      "id": "df9eba9d-64af-4d36-8cfe-f6a4e5cd74f1",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.table-wrapper",
+      "targets": [
+        ["css=.table-wrapper", "css:finder"],
+        ["xpath=//form[@id='shopping-cart-form']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": "1164.5,1062.86669921875"
+    }, {
+      "id": "372a3850-6db8-4538-ab86-83b70515b069",
+      "comment": "",
+      "command": "click",
+      "target": "id=itemquantity44",
+      "targets": [
+        ["id=itemquantity43", "id"],
+        ["name=itemquantity43", "name"],
+        ["css=#itemquantity43", "css:finder"],
+        ["xpath=//input[@id='itemquantity43']", "xpath:attributes"],
+        ["xpath=//form[@id='shopping-cart-form']/div/table/tbody/tr/td[5]/input", "xpath:idRelative"],
+        ["xpath=//td[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36045b80-edec-40cb-ab99-71752c812f1b",
+      "comment": "",
+      "command": "type",
+      "target": "id=itemquantity44",
+      "targets": [
+        ["id=itemquantity43", "id"],
+        ["name=itemquantity43", "name"],
+        ["css=#itemquantity43", "css:finder"],
+        ["xpath=//input[@id='itemquantity43']", "xpath:attributes"],
+        ["xpath=//form[@id='shopping-cart-form']/div/table/tbody/tr/td[5]/input", "xpath:idRelative"],
+        ["xpath=//td[5]/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "4a527403-373d-4266-a979-42f751dcaefc",
       "comment": "",
       "command": "click",
       "target": "css=.master-wrapper-page",
@@ -656,7 +630,7 @@
       ],
       "value": ""
     }, {
-      "id": "54020400-bc35-4c28-8090-8c00fb22cad0",
+      "id": "b3b952f1-d4ea-49a1-be3a-0a5f24ad9004",
       "comment": "",
       "command": "click",
       "target": "css=.update-cart-button",
@@ -669,7 +643,7 @@
       ],
       "value": ""
     }, {
-      "id": "de818d14-e7b0-4b6d-a47b-ab473e2b5df5",
+      "id": "870b45cd-c258-41ea-b798-ad1ac8225dcf",
       "comment": "",
       "command": "mouseDownAt",
       "target": "css=.table-wrapper",
@@ -678,9 +652,9 @@
         ["xpath=//form[@id='shopping-cart-form']/div", "xpath:idRelative"],
         ["xpath=//form/div", "xpath:position"]
       ],
-      "value": "1135,1084.3333282470703"
+      "value": "1167.5,1085.86669921875"
     }, {
-      "id": "0805100d-457f-4ef6-89d6-b37dc4a66293",
+      "id": "1c074b39-c293-4665-a2d9-b63320989936",
       "comment": "",
       "command": "mouseMoveAt",
       "target": "css=.table-wrapper",
@@ -689,9 +663,9 @@
         ["xpath=//form[@id='shopping-cart-form']/div", "xpath:idRelative"],
         ["xpath=//form/div", "xpath:position"]
       ],
-      "value": "1135,1084.3333282470703"
+      "value": "1167.5,1085.86669921875"
     }, {
-      "id": "5a009aa6-65f5-4a83-8d3f-450bc30da190",
+      "id": "a421e657-d2f5-4743-a002-c6dd223d8daa",
       "comment": "",
       "command": "mouseUpAt",
       "target": "css=.table-wrapper",
@@ -700,9 +674,9 @@
         ["xpath=//form[@id='shopping-cart-form']/div", "xpath:idRelative"],
         ["xpath=//form/div", "xpath:position"]
       ],
-      "value": "1135,1084.3333282470703"
+      "value": "1167.5,1085.86669921875"
     }, {
-      "id": "05046a36-8fb0-488f-b714-021d4d163101",
+      "id": "de103259-ce73-437d-a545-f342751559de",
       "comment": "",
       "command": "click",
       "target": "name=updatecart",
@@ -715,7 +689,7 @@
       ],
       "value": ""
     }, {
-      "id": "addf5afe-eb0a-490f-abaf-f51b4e8e837b",
+      "id": "7a43aa71-ac53-40c5-b1fa-7916effec69a",
       "comment": "",
       "command": "click",
       "target": "linkText=Log out",
@@ -729,7 +703,7 @@
       ],
       "value": ""
     }, {
-      "id": "f10ded2c-5eb4-49a0-b2ee-286f31f15e23",
+      "id": "bc42e96c-d4d8-49f3-97d3-aaefa3566436",
       "comment": "",
       "command": "close",
       "target": "",

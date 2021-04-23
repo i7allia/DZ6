@@ -89,18 +89,28 @@ public class NopCommercesuiteTest {
     driver.FindElement(By.Id("Email")).SendKeys("admin@userqa.com");
     driver.FindElement(By.Id("Password")).SendKeys("123456");
     driver.FindElement(By.CssSelector(".login-button")).Click();
-    driver.FindElement(By.CssSelector(".item-box:nth-child(1) .title > a")).Click();
-    driver.FindElement(By.LinkText("Cell phones")).Click();
-    driver.FindElement(By.CssSelector(".item-box:nth-child(3) .product-box-add-to-cart-button")).Click();
-    driver.FindElement(By.CssSelector(".cart-label")).Click();
-    driver.FindElement(By.CssSelector(".master-wrapper-page")).Click();
     driver.FindElement(By.LinkText("Electronics")).Click();
     driver.FindElement(By.LinkText("Cell phones")).Click();
-    driver.FindElement(By.CssSelector(".item-box:nth-child(3) .details a")).Click();
-    driver.FindElement(By.Id("product_enteredQuantity_20")).Click();
-    driver.FindElement(By.Id("product_enteredQuantity_20")).SendKeys("4");
+    driver.FindElement(By.CssSelector(".item-box:nth-child(3) img")).Click();
     driver.FindElement(By.Id("add-to-cart-button-20")).Click();
     driver.FindElement(By.CssSelector(".cart-label")).Click();
+    {
+      var element = driver.FindElement(By.CssSelector(".table-wrapper"));
+      Actions builder = new Actions(driver);
+      builder.MoveToElement(element).ClickAndHold().Perform();
+    }
+    {
+      var element = driver.FindElement(By.CssSelector(".table-wrapper"));
+      Actions builder = new Actions(driver);
+      builder.MoveToElement(element).Perform();
+    }
+    {
+      var element = driver.FindElement(By.CssSelector(".table-wrapper"));
+      Actions builder = new Actions(driver);
+      builder.MoveToElement(element).Release().Perform();
+    }
+    driver.FindElement(By.Id("itemquantity44")).Click();
+    driver.FindElement(By.Id("itemquantity44")).SendKeys("5");
     driver.FindElement(By.CssSelector(".master-wrapper-page")).Click();
     driver.FindElement(By.CssSelector(".update-cart-button")).Click();
     {
